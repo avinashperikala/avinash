@@ -1,0 +1,1375 @@
+{
+    "name": "go sales dashboard",
+    "theme": "carbonGrey10",
+    "version": 2150,
+    "eventGroups": [
+        {
+            "id": "model0000017cc301ea39_00000002:1",
+            "widgetIds": [
+                "model0000017cc302e1d9_00000000",
+                "model0000017cc3035c84_00000000",
+                "model0000017cc3041675_00000000",
+                "model0000017cc304a75b_00000000",
+                "model0000017cc3063a0a_00000000",
+                "model0000017cc307127a_00000000",
+                "model0000017cc307d466_00000000",
+                "model0000017cc308a60b_00000000",
+                "model0000017cc30905b8_00000000",
+                "model0000017cc30aa907_00000000",
+                "model0000017cc30b9327_00000000"
+            ]
+        }
+    ],
+    "properties": {
+        "customColors": {
+            "colors": [
+                "#1D2473"
+            ]
+        },
+        "defaultLocale": "Default",
+        "fredIsRed": true
+    },
+    "fredIsRed": {
+        "id": "model0000017cc301ea36_00000003",
+        "colorMap": {
+            "1003": {
+                "v": 0,
+                "s": 1
+            },
+            "1004": {
+                "v": 1,
+                "s": 1
+            },
+            "1020": {
+                "v": 2,
+                "s": 1
+            },
+            "1021": {
+                "v": 3,
+                "s": 1
+            },
+            "4011": {
+                "v": 4,
+                "s": 1
+            },
+            "4012": {
+                "v": 5,
+                "s": 1
+            },
+            "4013": {
+                "v": 6,
+                "s": 1
+            },
+            "4014": {
+                "v": 7,
+                "s": 1
+            },
+            "4016": {
+                "v": 8,
+                "s": 1
+            },
+            "5007": {
+                "v": 9,
+                "s": 1
+            },
+            "5010": {
+                "v": 10,
+                "s": 1
+            },
+            "5022": {
+                "v": 11,
+                "s": 1
+            },
+            "6001": {
+                "v": 12,
+                "s": 1
+            },
+            "6002": {
+                "v": 13,
+                "s": 1
+            },
+            "6008": {
+                "v": 14,
+                "s": 1
+            },
+            "6009": {
+                "v": 15,
+                "s": 1
+            },
+            "6017": {
+                "v": 16,
+                "s": 1
+            },
+            "7005": {
+                "v": 17,
+                "s": 1
+            },
+            "7006": {
+                "v": 18,
+                "s": 1
+            },
+            "7019": {
+                "v": 19,
+                "s": 1
+            }
+        },
+        "saveId": 2
+    },
+    "pageContext": [],
+    "drillThrough": [],
+    "dataSources": {
+        "version": "1.0",
+        "sources": [
+            {
+                "id": "model0000017cc3021b83_00000002",
+                "assetId": "iFDBD8399E5AA4D2193A7DBB454470A13",
+                "type": "module",
+                "name": "go sales data module",
+                "shaping": {
+                    "references": {},
+                    "embeddedModuleUpToDate": true
+                }
+            }
+        ]
+    },
+    "layout": {
+        "id": "model0000017cc301ea39_00000000",
+        "style": {
+            "height": "100%"
+        },
+        "type": "tab",
+        "showGrid": true,
+        "snapGrid": true,
+        "snapObjects": true,
+        "pageSize": {
+            "width": 1280,
+            "height": 720
+        },
+        "layoutPositioning": "relative",
+        "items": [
+            {
+                "id": "model0000017cc301ea39_00000002",
+                "type": "container",
+                "title": {
+                    "translationTable": {
+                        "Default": "Tab 1"
+                    }
+                },
+                "templateName": "Template1",
+                "items": [
+                    {
+                        "id": "model0000017cc301ea3a_00000001",
+                        "css": "templateBox aspectRatio_default",
+                        "type": "genericPage",
+                        "layoutPositioning": "relative",
+                        "items": [
+                            {
+                                "id": "model0000017cc301ea3a_00000003",
+                                "style": {
+                                    "top": "0%",
+                                    "left": "0%",
+                                    "right": "0%",
+                                    "bottom": "0%"
+                                },
+                                "type": "templateIndicator"
+                            },
+                            {
+                                "id": "model0000017cc30286ea_00000000",
+                                "css": "widget forcePageFit",
+                                "style": {
+                                    "width": "22.026431718061673%",
+                                    "height": "39.158100832109646%",
+                                    "top": "6.656877141458639%",
+                                    "left": "15.969162995594713%"
+                                },
+                                "type": "tab",
+                                "relatedLayouts": "",
+                                "showGrid": false,
+                                "snapGrid": false,
+                                "snapObjects": false,
+                                "layoutPositioning": "relative",
+                                "fitPage": false,
+                                "items": [
+                                    {
+                                        "id": "model0000017cc30286eb_00000001",
+                                        "type": "container",
+                                        "title": {
+                                            "translationTable": {
+                                                "Default": "Tab 1"
+                                            }
+                                        },
+                                        "items": [
+                                            {
+                                                "id": "model0000017cc30286eb_00000003",
+                                                "css": "templateBox aspectRatio_default",
+                                                "type": "genericPage",
+                                                "layoutPositioning": "relative",
+                                                "items": [
+                                                    {
+                                                        "id": "model0000017cc30286eb_00000005",
+                                                        "style": {
+                                                            "top": "0%",
+                                                            "left": "0%",
+                                                            "bottom": "0%",
+                                                            "right": "0%"
+                                                        },
+                                                        "type": "templateIndicator"
+                                                    },
+                                                    {
+                                                        "id": "model0000017cc302e1d9_00000000",
+                                                        "style": {
+                                                            "left": "1.3075465777147572%",
+                                                            "top": "2.4131565293982793%",
+                                                            "height": "33.18090227922634%",
+                                                            "width": "36.32073826985437%"
+                                                        },
+                                                        "type": "widget",
+                                                        "relatedLayouts": "",
+                                                        "features": {
+                                                            "Models_internal": {
+                                                                "type": "live",
+                                                                "id": "model0000017cc302e1d9_00000000",
+                                                                "visId": "filterDropdownWidget.FilterDropDown",
+                                                                "titleHtml": {
+                                                                    "translationTable": {
+                                                                        "Default": "<div class=\"widgetTitle smallTitle\" title=\"Click to edit title\" aria-labelledby=\"model0000017cc302e1d9_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea hidden\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div class=\"note-editable\" contenteditable=\"true\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p><span>Quarter</span></p></span></div></div></div></div></div>"
+                                                                    }
+                                                                },
+                                                                "titleMode": "smartTitle",
+                                                                "name": {
+                                                                    "translationTable": {
+                                                                        "Default": "Quarter"
+                                                                    }
+                                                                },
+                                                                "data": {
+                                                                    "dataViews": [
+                                                                        {
+                                                                            "id": "model0000017cc303141a_00000000",
+                                                                            "modelRef": "model0000017cc3021b83_00000002",
+                                                                            "dataItems": [
+                                                                                {
+                                                                                    "id": "id697592612",
+                                                                                    "itemId": "page_6.Quarter",
+                                                                                    "itemLabel": "Quarter"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "visTypeLocked": true,
+                                                                "slotmapping": {
+                                                                    "slots": [
+                                                                        {
+                                                                            "name": "Column",
+                                                                            "dataItems": [
+                                                                                "id697592612"
+                                                                            ]
+                                                                        }
+                                                                    ],
+                                                                    "multiMeasureGroups": {}
+                                                                },
+                                                                "localFilters": [
+                                                                    {
+                                                                        "id": "page_6.Year_",
+                                                                        "columnId": "page_6.Year_",
+                                                                        "values": [
+                                                                            {
+                                                                                "d": 2015,
+                                                                                "u": "page_6.Year_->[2015]"
+                                                                            },
+                                                                            {
+                                                                                "d": 2016,
+                                                                                "u": "page_6.Year_->[2016]"
+                                                                            },
+                                                                            {
+                                                                                "d": 2017,
+                                                                                "u": "page_6.Year_->[2017]"
+                                                                            },
+                                                                            {
+                                                                                "d": 2018,
+                                                                                "u": "page_6.Year_->[2018]"
+                                                                            }
+                                                                        ],
+                                                                        "excludedValues": [],
+                                                                        "operator": "in",
+                                                                        "type": null,
+                                                                        "binsLabel": "Year"
+                                                                    }
+                                                                ],
+                                                                "savedPrompts": null
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "model0000017cc307127a_00000000",
+                                                        "style": {
+                                                            "left": "45.32828136077825%",
+                                                            "top": "3.921379360272204%",
+                                                            "height": "17.471826397519276%",
+                                                            "width": "32.979230349027766%"
+                                                        },
+                                                        "type": "widget",
+                                                        "relatedLayouts": "",
+                                                        "features": {
+                                                            "Models_internal": {
+                                                                "type": "live",
+                                                                "id": "model0000017cc307127a_00000000",
+                                                                "visId": "dataRichTextWidget.dataRichText",
+                                                                "titleHtml": {
+                                                                    "translationTable": {
+                                                                        "Default": "<div class=\"widgetTitle smallTitle\" title=\"[value(0,0)]\" aria-labelledby=\"model0000017cc307127a_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea hidden\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div class=\"note-editable\" contenteditable=\"false\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p><span>[value(0,0)]</span></p></span></div></div></div></div></div>"
+                                                                    }
+                                                                },
+                                                                "titleMode": "customTitle",
+                                                                "name": {
+                                                                    "translationTable": {
+                                                                        "Default": "[value(0,0)]"
+                                                                    }
+                                                                },
+                                                                "data": {
+                                                                    "dataViews": [
+                                                                        {
+                                                                            "id": "model0000017cc307681b_00000000",
+                                                                            "modelRef": "model0000017cc3021b83_00000002",
+                                                                            "dataItems": [
+                                                                                {
+                                                                                    "id": "id_142377130",
+                                                                                    "itemId": "page_6.Unit_price",
+                                                                                    "itemLabel": "Unit Price"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "visTypeLocked": true,
+                                                                "slotmapping": {
+                                                                    "slots": [
+                                                                        {
+                                                                            "name": "Column",
+                                                                            "dataItems": [
+                                                                                "id_142377130"
+                                                                            ]
+                                                                        }
+                                                                    ],
+                                                                    "multiMeasureGroups": {}
+                                                                },
+                                                                "localFilters": [
+                                                                    {
+                                                                        "id": "page_6.Month_",
+                                                                        "columnId": "page_6.Month_",
+                                                                        "values": [
+                                                                            {
+                                                                                "d": "Jan",
+                                                                                "u": "page_6.Month_->[Jan]"
+                                                                            },
+                                                                            {
+                                                                                "d": "Feb",
+                                                                                "u": "page_6.Month_->[Feb]"
+                                                                            },
+                                                                            {
+                                                                                "d": "Mar",
+                                                                                "u": "page_6.Month_->[Mar]"
+                                                                            },
+                                                                            {
+                                                                                "d": "Apr",
+                                                                                "u": "page_6.Month_->[Apr]"
+                                                                            },
+                                                                            {
+                                                                                "d": "May",
+                                                                                "u": "page_6.Month_->[May]"
+                                                                            },
+                                                                            {
+                                                                                "d": "Jun",
+                                                                                "u": "page_6.Month_->[Jun]"
+                                                                            }
+                                                                        ],
+                                                                        "excludedValues": [],
+                                                                        "operator": "in",
+                                                                        "type": null,
+                                                                        "binsLabel": "Month"
+                                                                    }
+                                                                ],
+                                                                "savedPrompts": null
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "model0000017cc307d466_00000000",
+                                                        "style": {
+                                                            "left": "2.179244296191262%",
+                                                            "top": "42.531883830644674%",
+                                                            "height": "29.23596447833588%",
+                                                            "width": "34.1414939736631%"
+                                                        },
+                                                        "type": "widget",
+                                                        "relatedLayouts": "",
+                                                        "features": {
+                                                            "ConditionalFormatting": {
+                                                                "conditionalFormats": [
+                                                                    {
+                                                                        "paletteId": "carbonPaletteGreenYellowRed",
+                                                                        "scale": "%",
+                                                                        "rules": [
+                                                                            {
+                                                                                "ruleType": "threshold",
+                                                                                "startCondition": {
+                                                                                    "type": "<"
+                                                                                },
+                                                                                "ruleStyle": {
+                                                                                    "textColor": "color5",
+                                                                                    "shape": "downArrow"
+                                                                                },
+                                                                                "operator": "none"
+                                                                            },
+                                                                            {
+                                                                                "ruleType": "threshold",
+                                                                                "startCondition": {
+                                                                                    "type": ">="
+                                                                                },
+                                                                                "ruleStyle": {
+                                                                                    "textColor": "color0",
+                                                                                    "shape": "upArrow"
+                                                                                },
+                                                                                "operator": "none"
+                                                                            }
+                                                                        ],
+                                                                        "dataItemId": "page_6.Unit_price"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "Models_internal": {
+                                                                "type": "live",
+                                                                "id": "model0000017cc307d466_00000000",
+                                                                "visId": "kpi",
+                                                                "titleHtml": {
+                                                                    "translationTable": {
+                                                                        "Default": "<div class=\"widgetTitle smallTitle\" title=\"Unit Price\" aria-labelledby=\"model0000017cc307d466_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea hidden\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div class=\"note-editable\" contenteditable=\"false\" id=\"model0000017cc307d466_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p><span>Unit Price</span></p></span></div></div></div></div></div>"
+                                                                    }
+                                                                },
+                                                                "titleMode": "smartTitle",
+                                                                "name": {
+                                                                    "translationTable": {
+                                                                        "Default": "Unit Price"
+                                                                    }
+                                                                },
+                                                                "data": {
+                                                                    "dataViews": [
+                                                                        {
+                                                                            "id": "model0000017cc3080e37_00000000",
+                                                                            "modelRef": "model0000017cc3021b83_00000002",
+                                                                            "dataItems": [
+                                                                                {
+                                                                                    "id": "id_142377130",
+                                                                                    "itemId": "page_6.Unit_price",
+                                                                                    "itemLabel": "Unit Price"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "visTypeLocked": true,
+                                                                "slotmapping": {
+                                                                    "slots": [
+                                                                        {
+                                                                            "name": "actual",
+                                                                            "dataItems": [
+                                                                                "id_142377130"
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "sparkline.actual",
+                                                                            "dataItems": []
+                                                                        }
+                                                                    ],
+                                                                    "multiMeasureGroups": {}
+                                                                },
+                                                                "localFilters": [
+                                                                    {
+                                                                        "id": "page_6.Month_",
+                                                                        "columnId": "page_6.Month_",
+                                                                        "values": [
+                                                                            {
+                                                                                "d": "Jan",
+                                                                                "u": "page_6.Month_->[Jan]"
+                                                                            },
+                                                                            {
+                                                                                "d": "Feb",
+                                                                                "u": "page_6.Month_->[Feb]"
+                                                                            },
+                                                                            {
+                                                                                "d": "Mar",
+                                                                                "u": "page_6.Month_->[Mar]"
+                                                                            },
+                                                                            {
+                                                                                "d": "Apr",
+                                                                                "u": "page_6.Month_->[Apr]"
+                                                                            },
+                                                                            {
+                                                                                "d": "May",
+                                                                                "u": "page_6.Month_->[May]"
+                                                                            },
+                                                                            {
+                                                                                "d": "Jun",
+                                                                                "u": "page_6.Month_->[Jun]"
+                                                                            }
+                                                                        ],
+                                                                        "excludedValues": [],
+                                                                        "operator": "in",
+                                                                        "type": null,
+                                                                        "binsLabel": "Month"
+                                                                    }
+                                                                ],
+                                                                "savedPrompts": null
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "model0000017cc308a60b_00000000",
+                                                        "style": {
+                                                            "left": "54.771673310940386%",
+                                                            "top": "47.9614860217908%",
+                                                            "height": "15.072816998274593%",
+                                                            "width": "29.056590615883493%"
+                                                        },
+                                                        "type": "widget",
+                                                        "relatedLayouts": "",
+                                                        "features": {
+                                                            "Models_internal": {
+                                                                "type": "live",
+                                                                "id": "model0000017cc308a60b_00000000",
+                                                                "visId": "dataRichTextWidget.dataRichText",
+                                                                "titleHtml": {
+                                                                    "translationTable": {
+                                                                        "Default": "<div class=\"widgetTitle smallTitle\" title=\"[value(0,0)]\" aria-labelledby=\"model0000017cc308a60b_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea hidden\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div class=\"note-editable\" contenteditable=\"false\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p><span>[value(0,0)]</span></p></span></div></div></div></div></div>"
+                                                                    }
+                                                                },
+                                                                "titleMode": "customTitle",
+                                                                "name": {
+                                                                    "translationTable": {
+                                                                        "Default": "[value(0,0)]"
+                                                                    }
+                                                                },
+                                                                "data": {
+                                                                    "dataViews": [
+                                                                        {
+                                                                            "id": "model0000017cc308c988_00000000",
+                                                                            "modelRef": "model0000017cc3021b83_00000002",
+                                                                            "dataItems": [
+                                                                                {
+                                                                                    "id": "id_1792108263",
+                                                                                    "itemId": "page_6.Planned_revenue",
+                                                                                    "itemLabel": "Planned Revenue"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "visTypeLocked": true,
+                                                                "slotmapping": {
+                                                                    "slots": [
+                                                                        {
+                                                                            "name": "Column",
+                                                                            "dataItems": [
+                                                                                "id_1792108263"
+                                                                            ]
+                                                                        }
+                                                                    ],
+                                                                    "multiMeasureGroups": {}
+                                                                },
+                                                                "savedPrompts": null
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "model0000017cc30905b8_00000000",
+                                                        "style": {
+                                                            "left": "1.5981124838735923%",
+                                                            "top": "79.03087633779364%",
+                                                            "height": "21.110413977002615%",
+                                                            "width": "36.90187008217204%"
+                                                        },
+                                                        "type": "widget",
+                                                        "relatedLayouts": "",
+                                                        "features": {
+                                                            "ConditionalFormatting": {
+                                                                "conditionalFormats": [
+                                                                    {
+                                                                        "paletteId": "carbonPaletteGreenYellowRed",
+                                                                        "scale": "%",
+                                                                        "rules": [
+                                                                            {
+                                                                                "ruleType": "threshold",
+                                                                                "startCondition": {
+                                                                                    "type": "<"
+                                                                                },
+                                                                                "ruleStyle": {
+                                                                                    "textColor": "color5",
+                                                                                    "shape": "downArrow"
+                                                                                },
+                                                                                "operator": "none"
+                                                                            },
+                                                                            {
+                                                                                "ruleType": "threshold",
+                                                                                "startCondition": {
+                                                                                    "type": ">="
+                                                                                },
+                                                                                "ruleStyle": {
+                                                                                    "textColor": "color0",
+                                                                                    "shape": "upArrow"
+                                                                                },
+                                                                                "operator": "none"
+                                                                            }
+                                                                        ],
+                                                                        "dataItemId": "page_6.Planned_revenue"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "Models_internal": {
+                                                                "type": "live",
+                                                                "id": "model0000017cc30905b8_00000000",
+                                                                "visId": "kpi",
+                                                                "titleHtml": {
+                                                                    "translationTable": {
+                                                                        "Default": "<div class=\"widgetTitle titleShown smallTitle\" title=\"Planned Revenue\" aria-labelledby=\"model0000017cc30905b8_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div class=\"note-editable\" contenteditable=\"false\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p><span>Planned Revenue</span></p></span></div></div></div></div></div>"
+                                                                    }
+                                                                },
+                                                                "titleMode": "smartTitle",
+                                                                "name": {
+                                                                    "translationTable": {
+                                                                        "Default": "Planned Revenue"
+                                                                    }
+                                                                },
+                                                                "data": {
+                                                                    "dataViews": [
+                                                                        {
+                                                                            "id": "model0000017cc309a8a3_00000000",
+                                                                            "modelRef": "model0000017cc3021b83_00000002",
+                                                                            "dataItems": [
+                                                                                {
+                                                                                    "id": "id_1792108263",
+                                                                                    "itemId": "page_6.Planned_revenue",
+                                                                                    "itemLabel": "Planned Revenue"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "visTypeLocked": true,
+                                                                "slotmapping": {
+                                                                    "slots": [
+                                                                        {
+                                                                            "name": "sparkline.actual",
+                                                                            "dataItems": []
+                                                                        },
+                                                                        {
+                                                                            "name": "actual",
+                                                                            "dataItems": [
+                                                                                "id_1792108263"
+                                                                            ]
+                                                                        }
+                                                                    ],
+                                                                    "multiMeasureGroups": {}
+                                                                },
+                                                                "savedPrompts": null
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "model0000017cc3029f90_00000000",
+                                        "type": "container",
+                                        "title": {
+                                            "translationTable": {
+                                                "Default": "Tab 2"
+                                            }
+                                        },
+                                        "templateName": "Template1",
+                                        "items": [
+                                            {
+                                                "id": "model0000017cc3029f90_00000002",
+                                                "css": "templateBox aspectRatio_default",
+                                                "type": "genericPage",
+                                                "layoutPositioning": "relative",
+                                                "items": [
+                                                    {
+                                                        "id": "model0000017cc3029f90_00000004",
+                                                        "style": {
+                                                            "top": "0%",
+                                                            "left": "0%",
+                                                            "right": "0%",
+                                                            "bottom": "0%"
+                                                        },
+                                                        "type": "templateIndicator"
+                                                    },
+                                                    {
+                                                        "id": "model0000017cc3035c84_00000000",
+                                                        "style": {
+                                                            "left": "0.7264147653970874%",
+                                                            "top": "0%",
+                                                            "height": "37.696219790296695%",
+                                                            "width": "41.98677343995165%"
+                                                        },
+                                                        "type": "widget",
+                                                        "relatedLayouts": "",
+                                                        "features": {
+                                                            "Models_internal": {
+                                                                "type": "live",
+                                                                "id": "model0000017cc3035c84_00000000",
+                                                                "visId": "filterDropdownWidget.FilterDropDown",
+                                                                "titleHtml": {
+                                                                    "translationTable": {
+                                                                        "Default": "<div class=\"widgetTitle smallTitle\" title=\"Click to edit title\" aria-labelledby=\"model0000017cc3035c84_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea hidden\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div class=\"note-editable\" contenteditable=\"true\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p><span>Staff Count</span></p></span></div></div></div></div></div>"
+                                                                    }
+                                                                },
+                                                                "titleMode": "smartTitle",
+                                                                "name": {
+                                                                    "translationTable": {
+                                                                        "Default": "Staff Count"
+                                                                    }
+                                                                },
+                                                                "data": {
+                                                                    "dataViews": [
+                                                                        {
+                                                                            "id": "model0000017cc30383e1_00000000",
+                                                                            "modelRef": "model0000017cc3021b83_00000002",
+                                                                            "dataItems": [
+                                                                                {
+                                                                                    "id": "id1549808113",
+                                                                                    "itemId": "page.Staff_count",
+                                                                                    "itemLabel": "Staff Count"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "visTypeLocked": true,
+                                                                "slotmapping": {
+                                                                    "slots": [
+                                                                        {
+                                                                            "name": "Column",
+                                                                            "dataItems": [
+                                                                                "id1549808113"
+                                                                            ]
+                                                                        }
+                                                                    ],
+                                                                    "multiMeasureGroups": {}
+                                                                },
+                                                                "localFilters": [
+                                                                    {
+                                                                        "id": "page.City",
+                                                                        "columnId": "page.City",
+                                                                        "values": [
+                                                                            {
+                                                                                "d": "Amsterdam",
+                                                                                "u": "page.City->[Amsterdam]"
+                                                                            },
+                                                                            {
+                                                                                "d": "Bilbao",
+                                                                                "u": "page.City->[Bilbao]"
+                                                                            },
+                                                                            {
+                                                                                "d": "Birmingham",
+                                                                                "u": "page.City->[Birmingham]"
+                                                                            },
+                                                                            {
+                                                                                "d": "Calgary",
+                                                                                "u": "page.City->[Calgary]"
+                                                                            },
+                                                                            {
+                                                                                "d": "Distrito Federal",
+                                                                                "u": "page.City->[Distrito Federal]"
+                                                                            }
+                                                                        ],
+                                                                        "excludedValues": [],
+                                                                        "operator": "in",
+                                                                        "type": null,
+                                                                        "binsLabel": "City"
+                                                                    }
+                                                                ],
+                                                                "savedPrompts": null
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "model0000017cc30aa907_00000000",
+                                                        "style": {
+                                                            "left": "6.973581747812038%",
+                                                            "top": "40.42037186742118%",
+                                                            "height": "59.716273121055984%",
+                                                            "width": "50.413184718557865%"
+                                                        },
+                                                        "type": "widget",
+                                                        "relatedLayouts": "",
+                                                        "features": {
+                                                            "Models_internal": {
+                                                                "type": "live",
+                                                                "id": "model0000017cc30aa907_00000000",
+                                                                "visId": "com.ibm.vis.rave2bundlecolumn",
+                                                                "titleHtml": {
+                                                                    "translationTable": {
+                                                                        "Default": "<div class=\"widgetTitle smallTitle\" title=\"Year by Revenue\" aria-labelledby=\"model0000017cc30aa907_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea hidden\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div class=\"note-editable\" contenteditable=\"false\" id=\"model0000017cc30aa907_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p><span>Year by Revenue colored by Unit Cost</span></p></span></div></div></div></div></div>"
+                                                                    }
+                                                                },
+                                                                "titleMode": "smartTitle",
+                                                                "name": {
+                                                                    "translationTable": {
+                                                                        "Default": "Year by Revenue colored by Unit Cost"
+                                                                    }
+                                                                },
+                                                                "data": {
+                                                                    "dataViews": [
+                                                                        {
+                                                                            "id": "model0000017cc30acf44_00000000",
+                                                                            "modelRef": "model0000017cc3021b83_00000002",
+                                                                            "dataItems": [
+                                                                                {
+                                                                                    "id": "id1146031252",
+                                                                                    "itemId": "page_6.Revenue",
+                                                                                    "itemLabel": "Revenue"
+                                                                                },
+                                                                                {
+                                                                                    "id": "id_1717500358",
+                                                                                    "itemId": "page_6.Year_",
+                                                                                    "itemLabel": "Year"
+                                                                                },
+                                                                                {
+                                                                                    "id": "id964848672",
+                                                                                    "itemId": "page_6.Unit_cost",
+                                                                                    "itemLabel": "Unit Cost"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "visTypeLocked": true,
+                                                                "slotmapping": {
+                                                                    "slots": [
+                                                                        {
+                                                                            "name": "categories",
+                                                                            "dataItems": [
+                                                                                "id1146031252"
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "values",
+                                                                            "dataItems": [
+                                                                                "id_1717500358"
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "color",
+                                                                            "dataItems": [
+                                                                                "id964848672"
+                                                                            ]
+                                                                        }
+                                                                    ],
+                                                                    "multiMeasureGroups": {}
+                                                                },
+                                                                "annotations": {
+                                                                    "selectedAnnotations": []
+                                                                },
+                                                                "savedPrompts": null
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "model0000017cc302a853_00000000",
+                                        "type": "container",
+                                        "title": {
+                                            "translationTable": {
+                                                "Default": "Tab 3"
+                                            }
+                                        },
+                                        "templateName": "Template1",
+                                        "items": [
+                                            {
+                                                "id": "model0000017cc302a853_00000002",
+                                                "css": "templateBox aspectRatio_default",
+                                                "type": "genericPage",
+                                                "layoutPositioning": "relative",
+                                                "items": [
+                                                    {
+                                                        "id": "model0000017cc302a854_00000000",
+                                                        "style": {
+                                                            "top": "0%",
+                                                            "left": "0%",
+                                                            "right": "0%",
+                                                            "bottom": "0%"
+                                                        },
+                                                        "type": "templateIndicator"
+                                                    },
+                                                    {
+                                                        "id": "model0000017cc3041675_00000000",
+                                                        "style": {
+                                                            "left": "0.5811318123176699%",
+                                                            "top": "1.5082228308739245%",
+                                                            "height": "34.07648499619928%",
+                                                            "width": "41.115075721475144%"
+                                                        },
+                                                        "type": "widget",
+                                                        "relatedLayouts": "",
+                                                        "features": {
+                                                            "Models_internal": {
+                                                                "type": "live",
+                                                                "id": "model0000017cc3041675_00000000",
+                                                                "visId": "filterDropdownWidget.FilterDropDown",
+                                                                "titleHtml": {
+                                                                    "translationTable": {
+                                                                        "Default": "<div class=\"widgetTitle smallTitle\" title=\"Click to edit title\" aria-labelledby=\"model0000017cc3041675_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea hidden\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div class=\"note-editable\" contenteditable=\"true\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p><span>Order Method Code</span></p></span></div></div></div></div></div>"
+                                                                    }
+                                                                },
+                                                                "titleMode": "smartTitle",
+                                                                "name": {
+                                                                    "translationTable": {
+                                                                        "Default": "Order Method Code"
+                                                                    }
+                                                                },
+                                                                "data": {
+                                                                    "dataViews": [
+                                                                        {
+                                                                            "id": "model0000017cc3045662_00000000",
+                                                                            "modelRef": "model0000017cc3021b83_00000002",
+                                                                            "dataItems": [
+                                                                                {
+                                                                                    "id": "id1338009230",
+                                                                                    "itemId": "page_2.Order_method_code",
+                                                                                    "itemLabel": "Order Method Code"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "visTypeLocked": true,
+                                                                "slotmapping": {
+                                                                    "slots": [
+                                                                        {
+                                                                            "name": "Column",
+                                                                            "dataItems": [
+                                                                                "id1338009230"
+                                                                            ]
+                                                                        }
+                                                                    ],
+                                                                    "multiMeasureGroups": {}
+                                                                },
+                                                                "localFilters": [
+                                                                    {
+                                                                        "id": "page_2.Order_method_type",
+                                                                        "columnId": "page_2.Order_method_type",
+                                                                        "values": [
+                                                                            {
+                                                                                "d": "E-mail",
+                                                                                "u": "page_2.Order_method_type->[E-mail]"
+                                                                            },
+                                                                            {
+                                                                                "d": "Fax",
+                                                                                "u": "page_2.Order_method_type->[Fax]"
+                                                                            },
+                                                                            {
+                                                                                "d": "Mail",
+                                                                                "u": "page_2.Order_method_type->[Mail]"
+                                                                            },
+                                                                            {
+                                                                                "d": "Sales visit",
+                                                                                "u": "page_2.Order_method_type->[Sales visit]"
+                                                                            },
+                                                                            {
+                                                                                "d": "Special",
+                                                                                "u": "page_2.Order_method_type->[Special]"
+                                                                            },
+                                                                            {
+                                                                                "d": "Telephone",
+                                                                                "u": "page_2.Order_method_type->[Telephone]"
+                                                                            }
+                                                                        ],
+                                                                        "excludedValues": [],
+                                                                        "operator": "in",
+                                                                        "type": null,
+                                                                        "binsLabel": "Order Method Type"
+                                                                    }
+                                                                ],
+                                                                "savedPrompts": null
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "model0000017cc304a75b_00000000",
+                                                        "style": {
+                                                            "left": "2.0339613431118444%",
+                                                            "top": "26.846366389555858%",
+                                                            "height": "25.31458511806368%",
+                                                            "width": "40.388660956078056%"
+                                                        },
+                                                        "type": "widget",
+                                                        "relatedLayouts": "",
+                                                        "features": {
+                                                            "Models_internal": {
+                                                                "type": "live",
+                                                                "id": "model0000017cc304a75b_00000000",
+                                                                "visId": "filterDropdownWidget.FilterDropDown",
+                                                                "titleHtml": {
+                                                                    "translationTable": {
+                                                                        "Default": "<div class=\"widgetTitle smallTitle\" title=\"Click to edit title\" aria-labelledby=\"model0000017cc304a75b_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea hidden\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div class=\"note-editable\" contenteditable=\"true\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p><span>Staff Count</span></p></span></div></div></div></div></div>"
+                                                                    }
+                                                                },
+                                                                "titleMode": "smartTitle",
+                                                                "name": {
+                                                                    "translationTable": {
+                                                                        "Default": "Staff Count"
+                                                                    }
+                                                                },
+                                                                "data": {
+                                                                    "dataViews": [
+                                                                        {
+                                                                            "id": "model0000017cc304f14c_00000000",
+                                                                            "modelRef": "model0000017cc3021b83_00000002",
+                                                                            "dataItems": [
+                                                                                {
+                                                                                    "id": "id1549808113",
+                                                                                    "itemId": "page.Staff_count",
+                                                                                    "itemLabel": "Staff Count"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "visTypeLocked": true,
+                                                                "slotmapping": {
+                                                                    "slots": [
+                                                                        {
+                                                                            "name": "Column",
+                                                                            "dataItems": [
+                                                                                "id1549808113"
+                                                                            ]
+                                                                        }
+                                                                    ],
+                                                                    "multiMeasureGroups": {}
+                                                                },
+                                                                "localFilters": [
+                                                                    {
+                                                                        "id": "page.City",
+                                                                        "columnId": "page.City",
+                                                                        "values": [
+                                                                            {
+                                                                                "d": "Amsterdam",
+                                                                                "u": "page.City->[Amsterdam]"
+                                                                            },
+                                                                            {
+                                                                                "d": "Bilbao",
+                                                                                "u": "page.City->[Bilbao]"
+                                                                            },
+                                                                            {
+                                                                                "d": "Birmingham",
+                                                                                "u": "page.City->[Birmingham]"
+                                                                            },
+                                                                            {
+                                                                                "d": "Boston",
+                                                                                "u": "page.City->[Boston]"
+                                                                            },
+                                                                            {
+                                                                                "d": "Calgary",
+                                                                                "u": "page.City->[Calgary]"
+                                                                            },
+                                                                            {
+                                                                                "d": "Distrito Federal",
+                                                                                "u": "page.City->[Distrito Federal]"
+                                                                            }
+                                                                        ],
+                                                                        "excludedValues": [],
+                                                                        "operator": "in",
+                                                                        "type": null,
+                                                                        "binsLabel": "City"
+                                                                    }
+                                                                ],
+                                                                "savedPrompts": null
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "model0000017cc3063a0a_00000000",
+                                                        "style": {
+                                                            "left": "45.47356431385767%",
+                                                            "top": "4.826313058796559%",
+                                                            "height": "14.455380735771426%",
+                                                            "width": "28.766024709724658%"
+                                                        },
+                                                        "type": "widget",
+                                                        "relatedLayouts": "",
+                                                        "features": {
+                                                            "Models_internal": {
+                                                                "type": "live",
+                                                                "id": "model0000017cc3063a0a_00000000",
+                                                                "visId": "dataRichTextWidget.dataRichText",
+                                                                "titleHtml": {
+                                                                    "translationTable": {
+                                                                        "Default": "<div class=\"widgetTitle smallTitle\" title=\"[value(0,0)]\" aria-labelledby=\"model0000017cc3063a0a_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea hidden\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div class=\"note-editable\" contenteditable=\"false\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p><span>[value(0,0)]</span></p></span></div></div></div></div></div>"
+                                                                    }
+                                                                },
+                                                                "titleMode": "customTitle",
+                                                                "name": {
+                                                                    "translationTable": {
+                                                                        "Default": "[value(0,0)]"
+                                                                    }
+                                                                },
+                                                                "data": {
+                                                                    "dataViews": [
+                                                                        {
+                                                                            "id": "model0000017cc306cc79_00000000",
+                                                                            "modelRef": "model0000017cc3021b83_00000002",
+                                                                            "dataItems": [
+                                                                                {
+                                                                                    "id": "id_1792108263",
+                                                                                    "itemId": "page_6.Planned_revenue",
+                                                                                    "itemLabel": "Planned Revenue"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "visTypeLocked": true,
+                                                                "slotmapping": {
+                                                                    "slots": [
+                                                                        {
+                                                                            "name": "Column",
+                                                                            "dataItems": [
+                                                                                "id_1792108263"
+                                                                            ]
+                                                                        }
+                                                                    ],
+                                                                    "multiMeasureGroups": {}
+                                                                },
+                                                                "localFilters": [
+                                                                    {
+                                                                        "id": "page.Branch_code",
+                                                                        "columnId": "page.Branch_code",
+                                                                        "values": [
+                                                                            {
+                                                                                "d": 6,
+                                                                                "u": "page.Branch_code->[6]"
+                                                                            },
+                                                                            {
+                                                                                "d": 7,
+                                                                                "u": "page.Branch_code->[7]"
+                                                                            },
+                                                                            {
+                                                                                "d": 15,
+                                                                                "u": "page.Branch_code->[15]"
+                                                                            }
+                                                                        ],
+                                                                        "excludedValues": [],
+                                                                        "operator": "in",
+                                                                        "type": null,
+                                                                        "binsLabel": "Branch Code"
+                                                                    }
+                                                                ],
+                                                                "savedPrompts": null
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "id": "model0000017cc30b9327_00000000",
+                                                        "style": {
+                                                            "left": "43.14903706458699%",
+                                                            "top": "22.924987029283653%",
+                                                            "height": "66.9463917276994%",
+                                                            "width": "42.132056393031064%"
+                                                        },
+                                                        "type": "widget",
+                                                        "relatedLayouts": "",
+                                                        "features": {
+                                                            "Models_internal": {
+                                                                "type": "live",
+                                                                "id": "model0000017cc30b9327_00000000",
+                                                                "visId": "com.ibm.vis.rave2bundlebar",
+                                                                "titleHtml": {
+                                                                    "translationTable": {
+                                                                        "Default": "<div class=\"widgetTitle mediumTitle\" title=\"Branch Code by Staff Count colored by Country Code\" aria-labelledby=\"model0000017cc30b9327_00000000Title\" walkme-data-id=\"widgetTitle\"><div class=\"textArea hidden\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div class=\"note-editable\" contenteditable=\"false\" id=\"model0000017cc30b9327_00000000Title\"><span class=\"textFitted responsiveColor responsiveFontSize responsiveFontFamily\"><p><span>Branch Code compared to Country Code by Staff Count</span></p></span></div></div></div></div></div>"
+                                                                    }
+                                                                },
+                                                                "titleMode": "smartTitle",
+                                                                "name": {
+                                                                    "translationTable": {
+                                                                        "Default": "Branch Code compared to Country Code by Staff Count"
+                                                                    }
+                                                                },
+                                                                "data": {
+                                                                    "dataViews": [
+                                                                        {
+                                                                            "id": "model0000017cc30bb7d1_00000000",
+                                                                            "modelRef": "model0000017cc3021b83_00000002",
+                                                                            "dataItems": [
+                                                                                {
+                                                                                    "id": "id1549808113",
+                                                                                    "itemId": "page.Staff_count",
+                                                                                    "itemLabel": "Staff Count"
+                                                                                },
+                                                                                {
+                                                                                    "id": "id1140611605",
+                                                                                    "itemId": "page.Country_code",
+                                                                                    "itemLabel": "Country Code"
+                                                                                },
+                                                                                {
+                                                                                    "id": "id1074911595",
+                                                                                    "itemId": "page.Branch_code",
+                                                                                    "itemLabel": "Branch Code"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "visTypeLocked": true,
+                                                                "slotmapping": {
+                                                                    "slots": [
+                                                                        {
+                                                                            "name": "categories",
+                                                                            "dataItems": [
+                                                                                "id1549808113"
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "values",
+                                                                            "dataItems": [
+                                                                                "id1074911595"
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "name": "target",
+                                                                            "dataItems": [
+                                                                                "id1140611605"
+                                                                            ]
+                                                                        }
+                                                                    ],
+                                                                    "multiMeasureGroups": {}
+                                                                },
+                                                                "annotations": {
+                                                                    "selectedAnnotations": []
+                                                                },
+                                                                "savedPrompts": null
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "properties": {
+                                    "top": "0px",
+                                    "left": "0px",
+                                    "height": "510.75px",
+                                    "width": "890.172px",
+                                    "showTabsInPreview": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "features": {
+        "ContentStoreReferences": [
+            {
+                "objects": [
+                    {
+                        "searchPath": "CAMID(\"bid:u:7ff34233-c7f0-4481-8e41-924830db9447-99b934e2-8e9f-414e-89e8-a6f4405c1a74\")/folder[@name='My Folders']/module[@name='go sales data module']",
+                        "_meta": {
+                            "links": {
+                                "path": {
+                                    "mimeType": "application/vnd.ibm.bi.module+json",
+                                    "url": "/bi/v1/path?path=.my_folders%2Fgo%2Bsales%2Bdata%2Bmodule"
+                                },
+                                "smarts_modules": {
+                                    "mimeType": "application/json",
+                                    "url": "/bi/v1/objects/iFDBD8399E5AA4D2193A7DBB454470A13/smarts_modules"
+                                },
+                                "self": {
+                                    "mimeType": "application/vnd.ibm.bi.module+json",
+                                    "url": "/bi/v1/objects/iFDBD8399E5AA4D2193A7DBB454470A13"
+                                }
+                            }
+                        },
+                        "id": "iFDBD8399E5AA4D2193A7DBB454470A13",
+                        "ancestors": [
+                            {
+                                "_meta": {
+                                    "links": {
+                                        "self": {
+                                            "mimeType": "application/vnd.ibm.bi.directory+json",
+                                            "url": "/bi/v1/objects/i067DCA4123D34B8BA467DA867D438D84"
+                                        }
+                                    }
+                                },
+                                "id": "i067DCA4123D34B8BA467DA867D438D84",
+                                "type": "directory",
+                                "defaultName": "Directory"
+                            },
+                            {
+                                "_meta": {
+                                    "links": {
+                                        "self": {
+                                            "mimeType": "application/vnd.ibm.bi.namespace+json",
+                                            "url": "/bi/v1/objects/xYmlk"
+                                        },
+                                        "items": {
+                                            "mimeType": "application/json",
+                                            "url": "/bi/v1/namespaces/xYmlk/items"
+                                        }
+                                    }
+                                },
+                                "id": "xYmlk",
+                                "type": "namespace",
+                                "defaultName": "bid"
+                            },
+                            {
+                                "_meta": {
+                                    "links": {
+                                        "self": {
+                                            "mimeType": "application/vnd.ibm.bi.account+json",
+                                            "url": "/bi/v1/objects/xYmlkOnU6N2ZmMzQyMzMtYzdmMC00NDgxLThlNDEtOTI0ODMwZGI5NDQ3LTk5YjkzNGUyLThlOWYtNDE0ZS04OWU4LWE2ZjQ0MDVjMWE3NA__"
+                                        },
+                                        "items": {
+                                            "mimeType": "application/json",
+                                            "url": "/bi/v1/objects/xYmlkOnU6N2ZmMzQyMzMtYzdmMC00NDgxLThlNDEtOTI0ODMwZGI5NDQ3LTk5YjkzNGUyLThlOWYtNDE0ZS04OWU4LWE2ZjQ0MDVjMWE3NA__/items"
+                                        }
+                                    }
+                                },
+                                "id": "xYmlkOnU6N2ZmMzQyMzMtYzdmMC00NDgxLThlNDEtOTI0ODMwZGI5NDQ3LTk5YjkzNGUyLThlOWYtNDE0ZS04OWU4LWE2ZjQ0MDVjMWE3NA__",
+                                "type": "account",
+                                "defaultName": "Avinash Perikala (a6f4405c1a74)"
+                            },
+                            {
+                                "_meta": {
+                                    "links": {
+                                        "self": {
+                                            "mimeType": "application/vnd.ibm.bi.folder+json",
+                                            "url": "/bi/v1/objects/i5FCAD1A25D434DE69E7B909998F5E6C4"
+                                        },
+                                        "items": {
+                                            "mimeType": "application/json",
+                                            "url": "/bi/v1/objects/i5FCAD1A25D434DE69E7B909998F5E6C4/items"
+                                        }
+                                    }
+                                },
+                                "id": "i5FCAD1A25D434DE69E7B909998F5E6C4",
+                                "type": "folder",
+                                "defaultName": "My Folders"
+                            }
+                        ],
+                        "type": "module",
+                        "defaultName": "go sales data module"
+                    }
+                ],
+                "name": {
+                    "en-us": "iFDBD8399E5AA4D2193A7DBB454470A13"
+                }
+            }
+        ]
+    }
+}
